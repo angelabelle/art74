@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.js"></script>
+  <script src="libraries/p5.sound.js"></script>
+  <script src="javascript/captcha.js"></script>
+
+  <title>Fake News</title>
+  <link rel="stylesheet" type="text/css" href="css/captcha.css">
+  <link rel
+
+</head>
+
+<body>
+
+<h1> ARE YOU HUMAN? </h1>
+
+  <div id="captcha" onload="Captcha();">
+    <table id="captcha_main">
+      <tr>
+        <td>
+Match what you see and
+<br> type it in the field below.
+          <br/>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="mainCaptcha" />
+          <input type="button" id="refresh" value="Refresh" onclick="Captcha();" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input type="text" id="txtInput" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <input id="Button1" type="button" value="Check" onclick="alert(ValidCaptcha());" />
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+<div id="arrow"> <p>|</p> <p>|</p> <p>V</p> </div>
+
+  <div>
+    <p>
+    <a href="page.html" class="arrow"> YOU ARE DEFINITELY A ROBOT</a>
+    <p>
+  </div>
+
+</body>
+
+</html>
