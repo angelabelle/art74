@@ -26,8 +26,14 @@ h1 {
   position:absolute;
   top: 30%;
   left: 10%;
-
 }
+
+#box2 {
+  position:absolute;
+  top: 30%;
+  right: 10%;
+}
+
 
 canvas {
   margin: auto;
